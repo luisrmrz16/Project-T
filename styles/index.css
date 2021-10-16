@@ -30,17 +30,15 @@ body{
 .nav-bar ul{
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
-	margin: 0;
-	padding: 0;
+	justify-content: space-around;
+	height: 100%;
 }
 
 .nav-bar li{
-	padding: 5px 22px 5px 22px;
 	border-radius: 12px;
-	margin-top: 8px;
 	font-size: 18px;
 	font-weight: 700;
+	margin: auto;
 }
 
 .nav-bar li:hover{
@@ -72,6 +70,7 @@ body{
 	font-size: 1.8rem;
 	padding-top: 100px;
 	margin-left: 10px;
+	text-align: center;
 }
 
 .title span{
@@ -129,6 +128,7 @@ footer{
 	height: 136px;
 	margin-top: 80px;
 	display: flex;
+	justify-content: space-around;
 }
 
 .contact{
@@ -183,4 +183,49 @@ footer{
 .icons-gh a{
 	margin: 6px;
 	color: var(--background);
+}
+
+@media (min-width: 720px) {
+	
+	.header{
+		justify-content: space-around;
+	}
+	
+	.logo{
+		width: 180px;
+	}
+
+	.title{
+		font-size: 2.8rem;
+	}
+
+	.main-content h2{
+		font-size: 2rem;
+	}
+
+	.profile{
+		width: 100%;
+	}
+
+	.desc-personal picture{
+		width: 35%;
+	}
+
+	.desc-personal p{
+		font-size: 1.6rem;
+		margin-top: 2.5%;
+		margin-left: 10px;
+	}
+
+	.instagram-box img{
+		width: 18vw;
+	}
+
+	.instagram h2{
+		font-size: 2rem;
+	}
+
+	.contact{
+		font-size: 1.25rem;
+	}
 }

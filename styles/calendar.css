@@ -30,17 +30,15 @@ body{
 .nav-bar ul{
 	list-style: none;
 	display: flex;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
+	justify-content: space-around;
+	height: 100%;
 }
 
 .nav-bar li{
-	padding: 5px 22px 5px 22px;
 	border-radius: 12px;
-	margin-top: 8px;
 	font-size: 18px;
 	font-weight: bolder;
+	margin: auto;
 }
 
 .nav-bar li:hover{
@@ -72,6 +70,7 @@ body{
 	font-size: 1.8rem;
 	padding-top: 100px;
 	margin-left: 10px;
+	text-align: center;
 }
 
 .title span{
@@ -149,3 +148,37 @@ footer{
 	color: var(--background);
 }
 
+@media (min-width: 720px) {
+	
+	.header{
+		justify-content: space-around;
+	}
+	
+	.logo{
+		width: 180px;
+	}
+
+	.title{
+		font-size: 2.8rem;
+	}
+
+	.calendar iframe{
+		width: 800px;
+		height: 400px;
+	}
+
+	.contact{
+		font-size: 1.25rem;
+	}
+
+	footer{
+		position:relative;
+		width: 100%;
+	}
+}
+
+@media (max-width: 720px) {
+	.nav-bar li:nth-child(3){
+		display: none;
+	}
+}
