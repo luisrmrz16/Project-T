@@ -132,17 +132,45 @@ footer{
 	margin: auto 10px;
 }
 
+.contact p{
+	margin: 10px;
+}
+
+.icons{
+	display: flex;
+	justify-content: space-between;
+}
+
 .wa-icon{
 	text-decoration: none;
 	color: var(--background);
+	margin: auto;
 }
 
 .ig-icon{
 	text-decoration: none;
 	color: var(--background);
+	margin: auto;
 }
 
 .fb-icon{
 	text-decoration: none;
+	color: var(--background);
+	margin: auto;
+}
+
+.devs{
+	text-align: right;
+	margin: 20px 10px 0px 10px;
+	font-size: 0.8rem;
+}
+
+.icons-gh{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icons-gh a{
+	margin: 8px;
 	color: var(--background);
 }
