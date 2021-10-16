@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Iconos from './componentes/Iconos';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          THIS BITCH.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Iconos></Iconos>
+      <svg ><use xlinkHref="#twitter"/></svg>
+      <svg ><use xlinkHref="#instagram"/></svg>
+      <svg ><use xlinkHref="#facebook"/></svg>
+      <svg ><use xlinkHref="#github"/></svg>
+      <h5 className="font-josefin-sans font-black" >JOSEFIN josefin</h5>
     </div>
   );
 }
