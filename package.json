@@ -1,0 +1,22 @@
+{
+  "name": "project-t",
+  "version": "0.1.0",
+  "description": "Website for contact and presentation - Dog training \"El Profe\" ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisrmrz16/Project-T.git"
+  },
+  "author": "luisrmrz16",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisrmrz16/Project-T/issues"
+  },
+  "homepage": "https://github.com/luisrmrz16/Project-T#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
