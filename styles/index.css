@@ -15,4 +15,134 @@
 
 body{
 	background-color: var(--background);
+	color: var(--gray1);
+}
+
+.nav-bar{
+	background-color: var(--brown);
+	width: 100vw;
+	height: 56px;
+	position: fixed;
+	z-index: 100;
+	border-radius: 0 0 10px 10px;
+}
+
+.nav-bar ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar li{
+	padding: 5px 22px 5px 22px;
+	border-radius: 12px;
+	margin-top: 8px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.nav-bar li:hover{
+	border: 2px solid var(--gray1);
+}
+
+.nav-bar li::selection{
+	border: 2px solid var(--gray1);
+}
+
+.nav-bar a{
+	text-decoration: none;
+	color: var(--black);
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	margin: 0px 10px 10px 10px;
+	padding-top: 85px;
+	width: 100px;
+	height:fit-content;
+}
+
+.title{
+	font-size: 1.8rem;
+	padding-top: 100px;
+	margin-left: 10px;
+}
+
+.title span{
+	font-weight: bolder;
+}
+
+.main-content{
+	margin: 16px;
+	padding: 2px;
+}
+
+.desc-personal{
+	display: flex;
+	justify-content: space-between;
+}
+
+.profile{
+	width: 120px;
+	border-radius: 12px;
+	margin-top: 18px;
+}
+
+.desc-personal p{
+	text-align: right;
+}
+
+.instagram h2{
+	text-align: center;
+}
+
+.instagram-box{
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+	row-gap: 16px;
+	justify-items: center;
+}
+
+.instagram-box img{
+	width: 35vw;
+	max-width: 320px;
+	border-radius: 12px;
+}
+
+footer{
+	background-color: var(--gray1);
+	color: var(--background);
+	height: 136px;
+	margin-top: 80px;
+	display: flex;
+}
+
+.contact-title{
+	font-size: 1.25rem;
+	text-align: left;
+	margin: auto 10px;
+}
+
+.wa-icon{
+	text-decoration: none;
+	color: var(--background);
+}
+
+.ig-icon{
+	text-decoration: none;
+	color: var(--background);
+}
+
+.fb-icon{
+	text-decoration: none;
+	color: var(--background);
 }
